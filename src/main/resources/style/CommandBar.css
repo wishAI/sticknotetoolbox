@@ -1,0 +1,43 @@
+.btn-cmd {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0;
+    -fx-background-size: 20px 20px;
+    -fx-pref-width: 30px;
+    -fx-pref-height: 30px;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-opacity: 70%;
+}
+
+.btn-cmd:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.2);
+}
+
+#btn_add {
+    -fx-background-image: url("../icons/add.png");
+}
+
+#btn_color {
+    -fx-background-image: url("../icons/color.png");
+}
+
+#btn_switch {
+    -fx-background-image: url("../icons/switch.png");
+}
+
+#btn_items {
+    -fx-background-image: url("../icons/items.png");
+}
+
+#btn_record {
+    -fx-background-image: url("../icons/record.png");
+}
+
+#btn_close {
+    -fx-background-image: url("../icons/close.png");
+}
+
+#btn_pin {
+    -fx-background-image: url("../icons/pin.png");
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<fx:root type="javafx.scene.layout.AnchorPane"
+         xmlns:fx="http://javafx.com/fxml/1"
+         xmlns="http://javafx.com/javafx/10.0.1">
+
+    <GridPane fx:id="wrapper">
+
+        <columnConstraints>
+            <ColumnConstraints percentWidth="60" hgrow="ALWAYS" fillWidth="true"/>
+            <ColumnConstraints percentWidth="40" hgrow="ALWAYS" fillWidth="true"/>
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints vgrow="ALWAYS" fillHeight="true"/>
+            <RowConstraints vgrow="ALWAYS" fillHeight="true"/>
+            <RowConstraints vgrow="ALWAYS" fillHeight="true"/>
+        </rowConstraints>
+
+        <Button id="btn_addempty" GridPane.columnIndex="0" GridPane.rowIndex="0" onAction="#handleAddEmpty">Add Empty Note</Button>
+        <Button id="btn_add" GridPane.columnIndex="0" GridPane.rowIndex="1" onAction="#handleAddFunction">Add Tool Note</Button>
+        <Button id="btn_save" GridPane.columnIndex="1" GridPane.rowIndex="0" GridPane.rowSpan="2" onAction="#handleSave">Save</Button>
+        <HBox alignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="2">
+            <TextField fx:id="txt_input" id="txt_input" promptText="Enter Command " prefHeight="30" prefWidth="130" />
+        </HBox>
+        <Button id="btn_submit" GridPane.columnIndex="1" GridPane.rowIndex="2" onAction="#submitCommand"></Button>
+    </GridPane>
+
+    <GridPane fx:id="wrapper_function" visible="false">
+        <columnConstraints>
+            <ColumnConstraints percentWidth="50" hgrow="ALWAYS" fillWidth="true"/>
+            <ColumnConstraints percentWidth="50" hgrow="ALWAYS" fillWidth="true"/>
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints vgrow="ALWAYS" fillHeight="true"/>
+            <RowConstraints vgrow="ALWAYS" fillHeight="true"/>
+            <RowConstraints vgrow="ALWAYS" fillHeight="true"/>
+            <RowConstraints vgrow="ALWAYS" fillHeight="true"/>
+            <RowConstraints vgrow="ALWAYS" fillHeight="true"/>
+            <RowConstraints vgrow="ALWAYS" fillHeight="true"/>
+            <RowConstraints vgrow="ALWAYS" fillHeight="true"/>
+        </rowConstraints>
+
+        <Button id="btn_note" GridPane.columnIndex="0" GridPane.rowIndex="0">Text</Button>
+        <Button id="btn_note" GridPane.columnIndex="0" GridPane.rowIndex="1">Accounting</Button>
+        <Button id="btn_note" GridPane.columnIndex="0" GridPane.rowIndex="2">Calculator</Button>
+        <Button id="btn_note" GridPane.columnIndex="0" GridPane.rowIndex="3">Clock</Button>
+        <Button id="btn_note" GridPane.columnIndex="0" GridPane.rowIndex="4">ColorPicker</Button>
+        <Button id="btn_note" GridPane.columnIndex="0" GridPane.rowIndex="5">Midi</Button>
+        <Button id="btn_note" GridPane.columnIndex="0" GridPane.rowIndex="6">Weather</Button>
+        <Button id="btn_note" GridPane.columnIndex="1" GridPane.rowIndex="0">Clip</Button>
+        <Button id="btn_note" GridPane.columnIndex="1" GridPane.rowIndex="1">Canvas</Button>
+
+    </GridPane>
+
+
+</fx:root>

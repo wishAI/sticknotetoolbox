@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root type="javafx.scene.layout.AnchorPane"
+         xmlns:fx="http://javafx.com/fxml/1"
+         xmlns="http://javafx.com/javafx/10.0.1">
+
+    <VBox fx:id="wrapper">
+
+        <Label fx:id="lb_value" id="lb_value">0</Label>
+
+        <GridPane fx:id="wrapper_btn">
+
+            <columnConstraints>
+                <ColumnConstraints hgrow="ALWAYS" fillWidth="true"/>
+                <ColumnConstraints hgrow="ALWAYS" fillWidth="true"/>
+                <ColumnConstraints hgrow="ALWAYS" fillWidth="true"/>
+                <ColumnConstraints hgrow="ALWAYS" fillWidth="true"/>
+                <ColumnConstraints hgrow="ALWAYS" fillWidth="true"/>
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints percentHeight="25" fillHeight="true"/>
+                <RowConstraints percentHeight="25" fillHeight="true"/>
+                <RowConstraints percentHeight="25" fillHeight="true"/>
+                <RowConstraints percentHeight="25" fillHeight="true"/>
+            </rowConstraints>
+
+            <!-- numbers -->
+            <Button id="btn_cal" GridPane.columnIndex="0" GridPane.rowIndex="0" onAction="#handleClick">1</Button>
+            <Button id="btn_cal" GridPane.columnIndex="1" GridPane.rowIndex="0" onAction="#handleClick">2</Button>
+            <Button id="btn_cal" GridPane.columnIndex="2" GridPane.rowIndex="0" onAction="#handleClick">3</Button>
+            <Button id="btn_cal" GridPane.columnIndex="0" GridPane.rowIndex="1" onAction="#handleClick">4</Button>
+            <Button id="btn_cal" GridPane.columnIndex="1" GridPane.rowIndex="1" onAction="#handleClick">5</Button>
+            <Button id="btn_cal" GridPane.columnIndex="2" GridPane.rowIndex="1" onAction="#handleClick">6</Button>
+            <Button id="btn_cal" GridPane.columnIndex="0" GridPane.rowIndex="2" onAction="#handleClick">7</Button>
+            <Button id="btn_cal" GridPane.columnIndex="1" GridPane.rowIndex="2" onAction="#handleClick">8</Button>
+            <Button id="btn_cal" GridPane.columnIndex="2" GridPane.rowIndex="2" onAction="#handleClick">9</Button>
+            <Button id="btn_cal" GridPane.columnIndex="0" GridPane.rowIndex="3" GridPane.columnSpan="3"
+                    onAction="#handleClick">0
+            </Button>
+
+            <!-- signs -->
+            <Button id="btn_cal" GridPane.columnIndex="3" GridPane.rowIndex="1" onAction="#handleClick">+</Button>
+            <Button id="btn_cal" GridPane.columnIndex="4" GridPane.rowIndex="1" onAction="#handleClick">-</Button>
+            <Button id="btn_cal" GridPane.columnIndex="3" GridPane.rowIndex="2" onAction="#handleClick">*</Button>
+            <Button id="btn_cal" GridPane.columnIndex="4" GridPane.rowIndex="2" onAction="#handleClick">/</Button>
+            <Button id="btn_cal" GridPane.columnIndex="3" GridPane.rowIndex="0" GridPane.columnSpan="2"
+                    onAction="#handleClick">c
+            </Button>
+            <Button id="btn_cal" GridPane.columnIndex="3" GridPane.rowIndex="3" GridPane.columnSpan="2"
+                    onAction="#handleClick">=
+            </Button>
+        </GridPane>
+
+    </VBox>
+
+    <VBox fx:id="wrapper_items" visible="false">
+    </VBox>
+
+</fx:root>

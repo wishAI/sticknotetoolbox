@@ -1,0 +1,20 @@
+package main.gui.notepane.content;
+
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
+import javafx.fxml.FXML;
+import javafx.scene.control.TextArea;
+import javafx.scene.layout.*;
+import main.gui.MainApplication;
+import main.model.notes.tempNote;
+import main.gui.notepane.content.ContentPane;
+
+
+public class tempPane extends ContentBase<tempNote> {
+
+    public tempPane(tempNote note) {
+        super(note);
+        MainApplication.injection(this, "temp");
+    }
+
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.Button?>
+
+<!--<fx:root type="javafx.scene.layout.BorderPane"-->
+<?import java.net.URL?>
+
+<BorderPane fx:id="root"
+            fx:controller="main.gui.notepane.CommandBarController"
+            xmlns:fx="http://javafx.com/fxml/1"
+            xmlns="http://javafx.com/javafx/10.0.1"
+            prefHeight="30">
+
+    <left>
+        <HBox>
+            <Button styleClass="btn-cmd" id="btn_pin" onAction="#handlePinClick"/>
+            <Button styleClass="btn-cmd" id="btn_color" onAction="#handleColorClick"/>
+            <Button fx:id="btn_items" id="btn_items" styleClass="btn-cmd" onAction="#handleItemsClick"/>
+            <Button fx:id="btn_record" id="btn_record" styleClass="btn-cmd" onAction="#handleRecordClick"/>
+
+            <Button styleClass="btn-cmd" id="btn_add" onAction="#handleAddClick" visible="false"/>
+            <Button styleClass="btn-cmd" id="btn_switch" onAction="#handleSwitchClick" visible="false"/>
+        </HBox>
+    </left>
+    <right>
+        <HBox>
+            <Button fx:id="btn_close" styleClass="btn-cmd" id="btn_close" onAction="#handleCloseClick"/>
+        </HBox>
+    </right>
+
+    <stylesheets>
+        <URL value="@../style/CommandBar.css"/>
+    </stylesheets>
+
+</BorderPane>

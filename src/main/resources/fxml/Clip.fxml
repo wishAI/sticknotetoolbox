@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root type="javafx.scene.layout.AnchorPane"
+         xmlns:fx="http://javafx.com/fxml/1"
+         xmlns="http://javafx.com/javafx/10.0.1">
+
+    <Button fx:id="btn_clip" id="btn_clip" onAction="#handleClip"/>
+
+    <Pane fx:id="wrapper">
+    </Pane>
+
+    <VBox fx:id="wrapper_items" visible="false"/>
+
+</fx:root>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root type="javafx.scene.layout.AnchorPane"
+         xmlns:fx="http://javafx.com/fxml/1"
+         xmlns="http://javafx.com/javafx/10.0.1">
+
+    <Pane fx:id="wrapper">
+        <TextArea fx:id="textArea" id="textArea">
+        </TextArea>
+    </Pane>
+
+</fx:root>

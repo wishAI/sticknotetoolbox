@@ -1,0 +1,12 @@
+#lb_time {
+    -fx-font-size: 30;
+    -fx-font-family: monospace;
+    -fx-font-weight: 100;
+}
+
+#lb_info {
+    -fx-text-fill: #777777;
+}
+
+#wrapper_time {
+}

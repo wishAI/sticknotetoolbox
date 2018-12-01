@@ -1,0 +1,9 @@
+.lb-notify {
+    -fx-text-fill: white;
+    -fx-background-color: rgba(1, 1, 1, 0.4);
+    -fx-background-radius: 15px;
+}
+
+.lb-item:hover {
+    -fx-background-color: rgba(1, 1, 1, 0.1);
+}

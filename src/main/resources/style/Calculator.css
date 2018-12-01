@@ -1,0 +1,23 @@
+#lb_value {
+    -fx-font-size: 30;
+    -fx-font-family: monospace;
+    -fx-background-color: transparent;
+    -fx-label-padding: 0 15 0 0;
+}
+
+#btn_cal {
+    /*-fx-background-color: rgba(0, 0, 0, 0.1);*/
+    -fx-border-color: transparent;
+    -fx-alignment: center;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-font-size: 15;
+}
+
+#btn_cal:hover {
+    -fx-background-color: transparent;
+}
+
+GridPane {
+    -fx-background-color: transparent;
+}

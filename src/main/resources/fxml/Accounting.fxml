@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.net.URL?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<fx:root type="javafx.scene.layout.AnchorPane"
+         xmlns:fx="http://javafx.com/fxml/1"
+         xmlns="http://javafx.com/javafx/10.0.1">
+
+    <VBox fx:id="wrapper" alignment="center">
+
+        <BorderPane prefWidth="170" maxWidth="190">
+
+            <left>
+                <HBox alignment="TOP_CENTER">
+                    <!--<Label id="lb_icon" alignment="BOTTOM_CENTER">I</Label>-->
+                    <ImageView id="img_icon" preserveRatio="true" fitWidth="34" fitHeight="34">
+                        <Image url="@../icons/shop.png"/>
+                    </ImageView>
+                    <Button id="gap" prefWidth="5" visible="false"/>
+                    <TextField fx:id="txt_name" id="txt_input" alignment="BASELINE_LEFT" prefHeight="30" prefWidth="60"/>
+                </HBox>
+            </left>
+            <right>
+                <HBox alignment="TOP_CENTER">
+                    <!--<Label id="lb_icon" alignment="BOTTOM_CENTER">$</Label>-->
+                    <ImageView id="img_icon" preserveRatio="true" fitWidth="34" fitHeight="34">
+                        <Image url="@../icons/transfer.png"/>
+                    </ImageView>
+                    <TextField fx:id="txt_trans" id="txt_input" alignment="BASELINE_LEFT" prefHeight="30" prefWidth="60"/>
+                </HBox>
+            </right>
+
+        </BorderPane>
+
+        <Button prefWidth="195" id="btn_add" onAction="#handleAddClick">Add</Button>
+
+    </VBox>
+
+    <VBox fx:id="wrapper_items" visible="false">
+    </VBox>
+
+</fx:root>

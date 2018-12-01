@@ -1,0 +1,7 @@
+#btn_clip {
+    -fx-background-radius: 25px;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 30px;
+    -fx-background-image: url(../icons/clip.png);
+}

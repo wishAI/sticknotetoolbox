@@ -1,0 +1,60 @@
+#btn_addempty, #btn_add, #btn_save, #btn_submit {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-alignment: center;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-text-fill: #777777;
+    -fx-font-size: 12;
+    -fx-background-position: 50% 10px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 30px;
+    -fx-opacity: 70%;
+}
+
+#btn_note {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-alignment: center;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    /*-fx-text-fill: #777777;*/
+    -fx-font-size: 12;
+}
+
+#lb_prompt {
+    -fx-text-fill: #777777;
+    -fx-font-size: 12;
+}
+
+#btn_addempty:hover, #btn_add:hover, #btn_save:hover, #btn_submit:hover, #btn_note:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.1);
+}
+
+#btn_addempty {
+    -fx-background-image: url("../icons/add.png");
+}
+
+#btn_add {
+    -fx-background-image: url("../icons/switch.png");
+}
+
+#btn_submit {
+    -fx-background-position: center;
+    -fx-background-image: url("../icons/submit.png");
+}
+
+#btn_save {
+    -fx-background-position: center;
+    -fx-background-size: 50px;
+    -fx-background-image: url("../icons/save.png");
+}
+
+#txt_input {
+    -fx-background-color: transparent;
+    -fx-base: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-font-size: 13;
+    -fx-border-color: transparent transparent #777777 transparent;
+    -fx-prompt-text-fill: #999999;
+}

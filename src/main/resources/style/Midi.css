@@ -1,0 +1,24 @@
+
+.btn-midi {
+    -fx-background-color: transparent;
+    -fx-border-color: #EEEEEE;
+    -fx-alignment: center;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-font-size: 15;
+    -fx-text-fill: #777777;
+}
+
+.btn-midi:pressed {
+    -fx-background-color: #EEEEEE;
+}
+
+#lb_instrumentIdx {
+    -fx-background-color: transparent;
+    -fx-border-color: #EEEEEE;
+    -fx-alignment: center;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-font-size: 15;
+    -fx-text-fill: #777777;
+}

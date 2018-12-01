@@ -1,0 +1,15 @@
+#lb_weather {
+    -fx-font-size: 30;
+    -fx-font-family: monospace;
+    -fx-font-weight: 100;
+}
+
+#lb_description {
+    -fx-text-fill: #777777;
+    -fx-padding: 0 0 40 0;
+}
+
+#lb_temperature {
+    -fx-font-size: 14;
+    -fx-font-family: monospace;
+}

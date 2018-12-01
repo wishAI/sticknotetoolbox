@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.canvas.Canvas?>
+<fx:root type="javafx.scene.layout.AnchorPane"
+         xmlns:fx="http://javafx.com/fxml/1"
+         xmlns="http://javafx.com/javafx/10.0.1">
+
+    <HBox fx:id="wrapper_back" alignment="CENTER">
+        <Canvas fx:id="canvas_back"/>
+    </HBox>
+
+    <VBox alignment="CENTER" fx:id="wrapper">
+        <Label fx:id="lb_weather" id="lb_weather">Sunny</Label>
+        <Label fx:id="lb_description" id="lb_description"/>
+        <Label fx:id="lb_temperature" id="lb_temperature">max: 0C  min: 0C</Label>
+    </VBox>
+
+</fx:root>

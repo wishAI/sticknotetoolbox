@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import java.net.URL?>
+<AnchorPane styleClass="pane"
+            prefHeight="800.0"
+            prefWidth="1000.0"
+            xmlns="http://javafx.com/javafx/10.0.1"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="main.gui.MainApplication">
+
+    <!--<Button styleClass="btn"-->
+            <!--layoutX="269.0"-->
+            <!--layoutY="261.0"-->
+            <!--mnemonicParsing="false"-->
+            <!--text="tehfhf" />-->
+
+    <stylesheets>
+        <URL value="@../style/MainApplication.css"/>
+    </stylesheets>
+
+</AnchorPane>

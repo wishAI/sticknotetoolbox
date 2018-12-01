@@ -1,0 +1,1 @@
+main.model.notes.TextNote;yellow;Hello World! Test Saving...;main.model.notes.ClockNote;blue; ;main.model.notes.AccountingNote;red; ;main.model.notes.CalculatorNote;green; ;main.model.notes.CommandNote;cyan; ;main.model.notes.ColorPickerNote;grey; ;main.model.notes.ClipNote;purple; ;

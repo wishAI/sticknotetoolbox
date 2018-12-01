@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root type="javafx.scene.layout.AnchorPane"
+         xmlns:fx="http://javafx.com/fxml/1"
+         xmlns="http://javafx.com/javafx/10.0.1">
+
+    <VBox fx:id="wrapper">
+        <HBox fx:id="box_adjustment">
+            <Button onAction="#handlePrevClick">&lt;</Button>
+            <Label fx:id="lb_instrumentIdx" id="lb_instrumentIdx">1</Label>
+            <Button onAction="#handleNextClick">&gt;</Button>
+        </HBox>
+        <HBox fx:id="box_keyboard"/>
+    </VBox>
+
+    <VBox fx:id="wrapper_items" visible="false"/>
+
+</fx:root>

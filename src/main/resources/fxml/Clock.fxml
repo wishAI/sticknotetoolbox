@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.canvas.Canvas?>
+<fx:root type="javafx.scene.layout.AnchorPane"
+         xmlns:fx="http://javafx.com/fxml/1"
+         xmlns="http://javafx.com/javafx/10.0.1">
+
+    <VBox fx:id="wrapper_back" alignment="CENTER">
+        <Canvas fx:id="canvas_back"></Canvas>
+    </VBox>
+
+    <VBox fx:id="wrapper" alignment="CENTER">
+
+        <VBox fx:id="wrapper_time" alignment="CENTER">
+            <Label fx:id="lb_time" id="lb_time">00:00:00</Label>
+            <BorderPane fx:id="box_calendar">
+                <left>
+                    <Label fx:id="lb_week" id="lb_info">  Monday</Label>
+                </left>
+                <right>
+                    <Label fx:id="lb_calendar" id="lb_info">10/3  </Label>
+                </right>
+            </BorderPane>
+        </VBox>
+
+    </VBox>
+
+    <VBox fx:id="wrapper_items" visible="false">
+    </VBox>
+
+</fx:root>

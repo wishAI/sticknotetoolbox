@@ -1,0 +1,19 @@
+
+#wrapper {
+    /*-fx-background-color: white;*/
+}
+
+#wrapper_color {
+    -fx-padding: 30 0 0 0;
+}
+
+#btn_copy {
+    -fx-background-color: transparent;
+    -fx-font-family: monospace;
+    -fx-font-size: 20;
+}
+
+#btn_copy:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.1);
+    -fx-background-radius: 0;
+}

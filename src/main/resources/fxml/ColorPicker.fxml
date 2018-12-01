@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<fx:root type="javafx.scene.layout.AnchorPane"
+         xmlns:fx="http://javafx.com/fxml/1"
+         xmlns="http://javafx.com/javafx/10.0.1">
+
+    <Pane fx:id="wrapper_back"
+          prefHeight="170"
+          layoutY="10">
+    </Pane>
+
+    <BorderPane fx:id="wrapper">
+        <top>
+            <HBox fx:id="wrapper_color" id="wrapper_color" alignment="CENTER" spacing="10">
+                <Canvas fx:id="canvas_color"/>
+                <Canvas fx:id="canvas_hue"/>
+                <Canvas fx:id="canvas_saturation"/>
+                <Canvas fx:id="canvas_brightness"/>
+            </HBox>
+        </top>
+        <bottom>
+            <Button fx:id="btn_copy" id="btn_copy" onAction="#handleCopy">Copy</Button>
+        </bottom>
+    </BorderPane>
+
+    <VBox fx:id="wrapper_items" visible="false"/>
+
+</fx:root>
