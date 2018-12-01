@@ -1,5 +1,8 @@
 # Project : Sticky Notes Toolbox
 
+This project requires now requires java11 and maven. 
+
+
 ## Description
 This project will allow the users to write sticky notes in a board and put pictures and 
 canvas in the stick notes. Also, the stick notes can include functions such as calculator, 
